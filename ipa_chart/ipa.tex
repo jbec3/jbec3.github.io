@@ -1,7 +1,7 @@
 \documentclass[a3paper,12pt,landscape]{article}
 \usepackage[margin = 1in, top=.75in]{geometry}\linespread{1.2}
 \setlength{\parindent}{0pt}
-\usepackage{tipa}
+\usepackage[tone]{tipa}
 \usepackage{vowel}
 \usepackage{multirow}
 \usepackage{tabularx}
@@ -13,398 +13,449 @@
 \begin{document}
 
 \section*{Consonants}
-
 \begin{tabular}{|l|lr|lr|lr|lr|lr|lr|lr|lr|lr|lr|lr|}
-\hline
+    \hline
 
-& \multicolumn{2}{c|}{Bilabial} 
-& \multicolumn{2}{c|}{Labiodental}
-& \multicolumn{2}{c|}{Dental}
-& \multicolumn{2}{c|}{Alveolar}
-& \multicolumn{2}{c|}{Postalveolar}
-& \multicolumn{2}{c|}{Retroflex}
-& \multicolumn{2}{c|}{Palatal} 
-& \multicolumn{2}{c|}{Velar}
-& \multicolumn{2}{c|}{Uvular}
-& \multicolumn{2}{c|}{Pharyngeal}
-& \multicolumn{2}{c|}{Glottal}
-\\ \hline
+    & \multicolumn{2}{c|}{Bilabial} 
+    & \multicolumn{2}{c|}{Labiodental}
+    & \multicolumn{2}{c|}{Dental}
+    & \multicolumn{2}{c|}{Alveolar}
+    & \multicolumn{2}{c|}{Postalveolar}
+    & \multicolumn{2}{c|}{Retroflex}
+    & \multicolumn{2}{c|}{Palatal} 
+    & \multicolumn{2}{c|}{Velar}
+    & \multicolumn{2}{c|}{Uvular}
+    & \multicolumn{2}{c|}{Pharyngeal}
+    & \multicolumn{2}{c|}{Glottal}
+    \\ \hline
 
-\multirow{2}{*}{Plosive} 
-& \textipa{p} & \textipa{b} 
-& &
-& &
-& \textipa{t} & \textipa{d}
-& &
-& \textipa{\:t} & \textipa{\:d}
-& \textipa{c} & \textbardotlessj
-& \textipa{k} & \textipa{g}
-& \textipa{q} & \textipa{\;G}
-& &
-& \textipa{P} &
-\\
-& \verb+p+ & \verb+b+
-& &
-& &
-& \verb+t+ & \verb+d+
-& &
-& \verb+\:t+ & \verb+\:d+
-& \verb+c+ & \verb+\textbardotlessj+
-& \verb+k+ & \verb+g+
-& \verb+q+ & \verb+\;G+
-& &
-& \verb+P+ &
-\\ \hline
+    \multirow{2}{*}{Plosive} 
+    & \textipa{p} & \textipa{b} 
+    & &
+    & &
+    & \textipa{t} & \textipa{d}
+    & &
+    & \textipa{\:t} & \textipa{\:d}
+    & \textipa{c} & \textbardotlessj
+    & \textipa{k} & \textipa{g}
+    & \textipa{q} & \textipa{\;G}
+    & &
+    & \textipa{P} &
+    \\
+    & \verb+p+ & \verb+b+
+    & &
+    & &
+    & \verb+t+ & \verb+d+
+    & &
+    & \verb+\:t+ & \verb+\:d+
+    & \verb+c+ & \verb+\textbardotlessj+
+    & \verb+k+ & \verb+g+
+    & \verb+q+ & \verb+\;G+
+    & &
+    & \verb+P+ &
+    \\ \hline
 
-\multirow{2}{*}{Nasal}
-& & \textipa{m}
-& & \textipa{M}
-& & 
-& & \textipa{n}
-& &
-& & \textipa{\:n}
-& & \textipa{\textltailn}
-& & \textipa{N}
-& & \textipa{\;N}
-& &
-& &
-\\
-& & \verb+m+
-& & \verb+M+
-& & 
-& & \verb+n+
-& &
-& & \verb+\:n+
-& & \verb+\textltailn+
-& & \verb+N+
-& & \verb+\;N+
-& &
-& &
-\\ \hline
+    \multirow{2}{*}{Nasal}
+    & & \textipa{m}
+    & & \textipa{M}
+    & & 
+    & & \textipa{n}
+    & &
+    & & \textipa{\:n}
+    & & \textipa{\textltailn}
+    & & \textipa{N}
+    & & \textipa{\;N}
+    & &
+    & &
+    \\
+    & & \verb+m+
+    & & \verb+M+
+    & & 
+    & & \verb+n+
+    & &
+    & & \verb+\:n+
+    & & \verb+\textltailn+
+    & & \verb+N+
+    & & \verb+\;N+
+    & &
+    & &
+    \\ \hline
 
-\multirow{2}{*}{Trill}
-& & \textipa{\;B}
-& &
-& &
-& & \textipa{r}
-& &
-& &
-& &
-& &
-& & \textipa{\;R}
-& &
-& &
-\\
-& & \verb+\;B+
-& &
-& &
-& & \verb+r+
-& &
-& &
-& &
-& &
-& & \verb+\;R+
-& &
-& &
-\\ \hline
+    \multirow{2}{*}{Trill}
+    & & \textipa{\;B}
+    & &
+    & &
+    & & \textipa{r}
+    & &
+    & &
+    & &
+    & &
+    & & \textipa{\;R}
+    & &
+    & &
+    \\
+    & & \verb+\;B+
+    & &
+    & &
+    & & \verb+r+
+    & &
+    & &
+    & &
+    & &
+    & & \verb+\;R+
+    & &
+    & &
+    \\ \hline
 
-\multirow{2}{*}{Tap or Flap}
-& &
-& &
-& &
-& & \textipa{R}
-& &
-& & \textipa{\:r}
-& &
-& &
-& &
-& &
-& &
-\\
-& &
-& &
-& &
-& & \verb+R+
-& &
-& & \verb+\:r+
-& &
-& &
-& &
-& &
-& &
-\\ \hline
+    \multirow{2}{*}{Tap or Flap}
+    & &
+    & &
+    & &
+    & & \textipa{R}
+    & &
+    & & \textipa{\:r}
+    & &
+    & &
+    & &
+    & &
+    & &
+    \\
+    & &
+    & &
+    & &
+    & & \verb+R+
+    & &
+    & & \verb+\:r+
+    & &
+    & &
+    & &
+    & &
+    & &
+    \\ \hline
 
-\multirow{2}{*}{Fricative}
-& \textipa{F} & \textipa{B}
-& \textipa{f} & \textipa{v}
-& \textipa{D} & \textipa{T}
-& \textipa{s} & \textipa{z}
-& \textipa{S} & \textipa{Z}
-& \textipa{\:s} & \textipa{\:z}
-& \textipa{\c{c}} & \textipa{J}
-& \textipa{x} & \textipa{G}
-& \textipa{X} & \textipa{K}
-& \textipa{\textcrh} & \textipa{Q}
-& \textipa{h} & \textipa{H}
-\\
-& \verb+F+ & \verb+B+
-& \verb+f+ & \verb+v+
-& \verb+D+ & \verb+T+
-& \verb+s+ & \verb+z+
-& \verb+S+ & \verb+Z+
-& \verb+\:s+ & \verb+\:z+
-& \verb+\c{c}+ & \verb+J+
-& \verb+x+ & \verb+G+
-& \verb+X+ & \verb+K+
-& \verb+\textcrh+ & \verb+Q+
-& \verb+h+ & \verb+H+
-\\ \hline
+    \multirow{2}{*}{Fricative}
+    & \textipa{F} & \textipa{B}
+    & \textipa{f} & \textipa{v}
+    & \textipa{D} & \textipa{T}
+    & \textipa{s} & \textipa{z}
+    & \textipa{S} & \textipa{Z}
+    & \textipa{\:s} & \textipa{\:z}
+    & \textipa{\c{c}} & \textipa{J}
+    & \textipa{x} & \textipa{G}
+    & \textipa{X} & \textipa{K}
+    & \textipa{\textcrh} & \textipa{Q}
+    & \textipa{h} & \textipa{H}
+    \\
+    & \verb+F+ & \verb+B+
+    & \verb+f+ & \verb+v+
+    & \verb+D+ & \verb+T+
+    & \verb+s+ & \verb+z+
+    & \verb+S+ & \verb+Z+
+    & \verb+\:s+ & \verb+\:z+
+    & \verb+\c{c}+ & \verb+J+
+    & \verb+x+ & \verb+G+
+    & \verb+X+ & \verb+K+
+    & \verb+\textcrh+ & \verb+Q+
+    & \verb+h+ & \verb+H+
+    \\ \hline
 
-\multirow{2}{*}{Lateral Fricative}
-& &
-& & 
-& &
-& \textipa{\textbeltl} & \textipa{\textlyoghlig}
-& &
-& &
-& &
-& &
-& &
-& &
-& &
-\\
-& &
-& &
-& &
-& \verb+\textbeltl+ & \verb+\textlyoghlig+
-& &
-& &
-& &
-& &
-& &
-& &
-& &
-\\ \hline
+    \multirow{2}{*}{Lateral Fricative}
+    & &
+    & & 
+    & &
+    & \textipa{\textbeltl} & \textipa{\textlyoghlig}
+    & &
+    & &
+    & &
+    & &
+    & &
+    & &
+    & &
+    \\
+    & &
+    & &
+    & &
+    & \verb+\textbeltl+ & \verb+\textlyoghlig+
+    & &
+    & &
+    & &
+    & &
+    & &
+    & &
+    & &
+    \\ \hline
 
-\multirow{2}{*}{Approximant}
-& &
-& & \textipa{V}
-& &
-& & \textipa{\*r}
-& &
-& & \textipa{\:R}
-& & \textipa{j}
-& & \textipa{\textturnmrleg}
-& &
-& &
-& &
-\\
-& &
-& & \verb+V+
-& &
-& & \verb+\*r+
-& &
-& & \verb+\:R+
-& & \verb+j+
-& & \verb+\textturnmrleg+
-& &
-& &
-& &
-\\ \hline
+    \multirow{2}{*}{Approximant}
+    & &
+    & & \textipa{V}
+    & &
+    & & \textipa{\*r}
+    & &
+    & & \textipa{\:R}
+    & & \textipa{j}
+    & & \textipa{\textturnmrleg}
+    & &
+    & &
+    & &
+    \\
+    & &
+    & & \verb+V+
+    & &
+    & & \verb+\*r+
+    & &
+    & & \verb+\:R+
+    & & \verb+j+
+    & & \verb+\textturnmrleg+
+    & &
+    & &
+    & &
+    \\ \hline
 
-\multirow{2}{*}{Lateral Approximant}
-& &
-& &
-& &
-& & \textipa{l}
-& &
-& & \textipa{\:l}
-& & \textipa{L}
-& & \textipa{\;L}
-& &
-& &
-& &
-\\
-& &
-& &
-& &
-& & \verb+l+
-& &
-& & \verb+\:l+
-& & \verb+L+
-& & \verb+\;L+
-& &
-& &
-& &
-\\ \hline
-\end{tabular}
-
-\vspace{3em}
+    \multirow{2}{*}{Lateral Approximant}
+    & &
+    & &
+    & &
+    & & \textipa{l}
+    & &
+    & & \textipa{\:l}
+    & & \textipa{L}
+    & & \textipa{\;L}
+    & &
+    & &
+    & &
+    \\
+    & &
+    & &
+    & &
+    & & \verb+l+
+    & &
+    & & \verb+\:l+
+    & & \verb+L+
+    & & \verb+\;L+
+    & &
+    & &
+    & &
+    \\ \hline
+\end{tabular}\\[3em]
 
 \begin{minipage}[t]{0.35\linewidth}
-\section*{Affricates}
-\setlength{\extrarowheight}{8pt}%
-\begin{tabular}{|l|lr|}
-\hline
-& Voiceless & Voiced \\
-\hline
+    \section*{Affricates}
+    \setlength{\extrarowheight}{8pt}%
+    \begin{tabular}{|l|lr|}
+        \hline
+        & Voiceless & Voiced \\
+        \hline
 
-\multirow{2}{*}{Alveolar} 
-& \textipa{\t{\texttslig}} & \textipa{\t{\textdzlig}}\\
-& \verb+\t{\texttslig}+ & \verb+\t{\textdzlig}+ \\\hline
+        \multirow{2}{*}{Alveolar} 
+        & \textipa{\t{\texttslig}} & \textipa{\t{\textdzlig}}\\
+        & \verb+\t{\texttslig}+ & \verb+\t{\textdzlig}+ \\\hline
 
-\multirow{2}{*}{Postalveolar} 
-& & \textipa{\t{\textdyoghlig}} \\
-& & \verb+\t{\textdyoghlig}+ \\\hline
+        \multirow{2}{*}{Postalveolar} 
+        & & \textipa{\t{\textdyoghlig}} \\
+        & & \verb+\t{\textdyoghlig}+ \\\hline
 
-\multirow{2}{*}{Palato-alveolar}
-& \textipa{\t{\textteshlig}} & \\
-& \verb+\t{\textteshlig}+ & \\\hline
+        \multirow{2}{*}{Palato-alveolar}
+        & \textipa{\t{\textteshlig}} & \\
+        & \verb+\t{\textteshlig}+ & \\\hline
 
-\multirow{2}{*}{Alveolo-palatal}
-& \textipa{\t{\texttctclig}} & \textipa{\t{\textdctzlig}}\\
-& \verb+\t{\texttctclig}+ & \verb+\t{\textdctzlig}+\\\hline
+        \multirow{2}{*}{Alveolo-palatal}
+        & \textipa{\t{\texttctclig}} & \textipa{\t{\textdctzlig}}\\
+        & \verb+\t{\texttctclig}+ & \verb+\t{\textdctzlig}+\\\hline
 
-\multirow{2}{*}{Retroflex}
-& \textipa{\t{\:t\:s}} & \textipa{\t{\:d\:z}} \\
-& \verb+\t{\:t\:s}+ & \verb+\t{\:d\:z}+ \\\hline
-\end{tabular}
-
+        \multirow{2}{*}{Retroflex}
+        & \textipa{\t{\:t\:s}} & \textipa{\t{\:d\:z}} \\
+        & \verb+\t{\:t\:s}+ & \verb+\t{\:d\:z}+ \\\hline
+    \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.45\linewidth}
+    \section*{Vowels}
+    \begin{tabular}{|l|lr|lr|lr|lr|lr|}
+        \hline
+        & \multicolumn{2}{c|}{Front} & & 
+        & \multicolumn{2}{c|}{Central} & & 
+        & \multicolumn{2}{c|}{Back} \\ 
+        \hline
 
-\section*{Vowels}
+        \multirow{2}{*}{Close} 
+        & \textipa{i} & \textipa{y} & & & \textipa{1} & \textipa{0} & & & \textipa{W} & \textipa{u} \\
+        & \verb+i+ & \verb+y+ & & & \verb+1+ & \verb+0+ & & & \verb+W+ & \verb+u+ \\
+        \hline
 
-\begin{tabular}{|l|lr|lr|lr|lr|lr|}
-\hline
-& \multicolumn{2}{c|}{Front} & & 
-& \multicolumn{2}{c|}{Central} & & 
-& \multicolumn{2}{c|}{Back} \\ 
-\hline
+        \multirow{2}{*}{Near-Close} 
+        & & & \textipa{I} & \textipa{Y} & & & & \textipa{U} & & \\
+        & & & \verb+I+ & \verb+Y+ & & & & \verb+U+ & & \\
+        \hline
 
-\multirow{2}{*}{Close} 
-& \textipa{i} & \textipa{y} & & & \textipa{1} & \textipa{0} & & & \textipa{W} & \textipa{u} \\
-& \verb+i+ & \verb+y+ & & & \verb+1+ & \verb+0+ & & & \verb+W+ & \verb+u+ \\
-\hline
+        \multirow{2}{*}{Close-mid} 
+        & \textipa{e} & \textipa{\o} & & & \textipa{9} & \textipa{8} & & & \textipa{7} & \textipa{o} \\
+        & \verb+e+ & \verb+\o+ & & & \verb+9+ & \verb+8+ & & & \verb+7+ & \verb+o+ \\
+        \hline
 
-\multirow{2}{*}{Near-Close} 
-& & & \textipa{I} & \textipa{Y} & & & & \textipa{U} & & \\
-& & & \verb+I+ & \verb+Y+ & & & & \verb+U+ & & \\
-\hline
+        \multirow{2}{*}{Mid} 
+        & & & & & \multicolumn{2}{c|}{\textipa{@}} & & & & \\
+        & & & & & \multicolumn{2}{c|}{\texttt{@}} & & & & \\
+        \hline
 
-\multirow{2}{*}{Close-mid} 
-& \textipa{e} & \textipa{\o} & & & \textipa{9} & \textipa{8} & & & \textipa{7} & \textipa{o} \\
-& \verb+e+ & \verb+\o+ & & & \verb+9+ & \verb+8+ & & & \verb+7+ & \verb+o+ \\
-\hline
+        \multirow{2}{*}{Open-mid}
+        & \textipa{E} & \textipa{\oe} & & & \textipa{3} & \textipa{\textcloserevepsilon} & & & \textipa{2} & \textipa{O} \\
+        & \verb+E+ & \verb+\oe+ & & & \verb+3+ & \verb+\textcloserevepsilon+ & & & \verb+2+ & \verb+O+ \\
+        \hline
 
-\multirow{2}{*}{Mid} 
-& & & & & \multicolumn{2}{c|}{\textipa{@}} & & & & \\
-& & & & & \multicolumn{2}{c|}{\texttt{@}} & & & & \\
-\hline
+        \multirow{2}{*}{Near-open}
+        & \textipa{\ae} & & & & \multicolumn{2}{c|}{\textipa{5}} & & & & \\
+        & \verb+\ae+ & & & & \multicolumn{2}{c|}{\texttt{5}} & & & & \\
+        \hline
 
-\multirow{2}{*}{Open-mid}
-& \textipa{E} & \textipa{\oe} & & & \textipa{3} & \textipa{\textcloserevepsilon} & & & \textipa{2} & \textipa{O} \\
-& \verb+E+ & \verb+\oe+ & & & \verb+3+ & \verb+\textcloserevepsilon+ & & & \verb+2+ & \verb+O+ \\
-\hline
-
-\multirow{2}{*}{Near-open}
-& \textipa{\ae} & & & & \multicolumn{2}{c|}{\textipa{5}} & & & & \\
-& \verb+\ae+ & & & & \multicolumn{2}{c|}{\texttt{5}} & & & & \\
-\hline
-
-\multirow{2}{*}{Open}
-& \textipa{a} & \textipa{\OE} & & & & & & & \textipa{A} & \textipa{6} \\
-& \verb+a+ & \verb+\OE+ & & & & & & & \verb+A+ & \verb+6+ \\
-\hline
-\end{tabular}
+        \multirow{2}{*}{Open}
+        & \textipa{a} & \textipa{\OE} & & & & & & & \textipa{A} & \textipa{6} \\
+        & \verb+a+ & \verb+\OE+ & & & & & & & \verb+A+ & \verb+6+ \\
+        \hline
+    \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.25\linewidth}
     \vspace*{4em}
-\begin{vowel}
-    \putcvowel[l]{\textipa{i}}{1}
-    \putcvowel[r]{\textipa{y}}{1}
-    \putcvowel[l]{\textipa{e}}{2}
-    \putcvowel[r]{\textipa{\o}}{2}
-    \putcvowel[l]{\textipa{E}}{3}
-    \putcvowel[r]{\textipa{\oe}}{3}
-    \putcvowel[l]{\textipa{a}}{4}
-    \putcvowel[r]{\textipa{\OE}}{4}
-    \putcvowel[l]{\textipa{A}}{5}
-    \putcvowel[r]{\textipa{6}}{5}
-    \putcvowel[l]{\textipa{2}}{6}
-    \putcvowel[r]{\textipa{O}}{6}
-    \putcvowel[l]{\textipa{7}}{7}
-    \putcvowel[r]{\textipa{o}}{7}
-    \putcvowel[l]{\textipa{W}}{8}
-    \putcvowel[r]{\textipa{u}}{8}
-    \putcvowel[l]{\textipa{1}}{9}
-    \putcvowel[r]{\textipa{0}}{9}
-    \putcvowel[l]{\textipa{9}}{10}
-    \putcvowel[r]{\textipa{8}}{10}
-    \putcvowel{\textipa{@}}{11}
-    \putcvowel[l]{\textipa{3}}{12}
-    \putcvowel[r]{\textipa{\textcloserevepsilon}}{12}
-    \putcvowel{\textipa{I}\ \textipa{Y}}{13}
-    \putcvowel{\textipa{U}}{14}
-    \putcvowel{\textipa{5}}{15}
-    \putcvowel{\textipa{\ae}}{16}
-\end{vowel} \\[12pt]
-\begin{vowel}
-    \putcvowel{1}{1}
-    \putcvowel{2}{2}
-    \putcvowel{3}{3}
-    \putcvowel{4}{4}
-    \putcvowel{5}{5}
-    \putcvowel{6}{6}
-    \putcvowel{7}{7}
-    \putcvowel{8}{8}
-    \putcvowel{9}{9}
-    \putcvowel{10}{10}
-    \putcvowel{11}{11}
-    \putcvowel{12}{12}
-    \putcvowel{13}{13}
-    \putcvowel{14}{14}
-    \putcvowel{15}{15}
-    \putcvowel{16}{16}
-\end{vowel}
+    \begin{vowel}
+        \putcvowel[l]{\textipa{i}}{1}
+        \putcvowel[r]{\textipa{y}}{1}
+        \putcvowel[l]{\textipa{e}}{2}
+        \putcvowel[r]{\textipa{\o}}{2}
+        \putcvowel[l]{\textipa{E}}{3}
+        \putcvowel[r]{\textipa{\oe}}{3}
+        \putcvowel[l]{\textipa{a}}{4}
+        \putcvowel[r]{\textipa{\OE}}{4}
+        \putcvowel[l]{\textipa{A}}{5}
+        \putcvowel[r]{\textipa{6}}{5}
+        \putcvowel[l]{\textipa{2}}{6}
+        \putcvowel[r]{\textipa{O}}{6}
+        \putcvowel[l]{\textipa{7}}{7}
+        \putcvowel[r]{\textipa{o}}{7}
+        \putcvowel[l]{\textipa{W}}{8}
+        \putcvowel[r]{\textipa{u}}{8}
+        \putcvowel[l]{\textipa{1}}{9}
+        \putcvowel[r]{\textipa{0}}{9}
+        \putcvowel[l]{\textipa{9}}{10}
+        \putcvowel[r]{\textipa{8}}{10}
+        \putcvowel{\textipa{@}}{11}
+        \putcvowel[l]{\textipa{3}}{12}
+        \putcvowel[r]{\textipa{\textcloserevepsilon}}{12}
+        \putcvowel{\textipa{I}\ \textipa{Y}}{13}
+        \putcvowel{\textipa{U}}{14}
+        \putcvowel{\textipa{5}}{15}
+        \putcvowel{\textipa{\ae}}{16}
+    \end{vowel} \\[12pt]
+    \begin{vowel}
+        \putcvowel{1}{1}
+        \putcvowel{2}{2}
+        \putcvowel{3}{3}
+        \putcvowel{4}{4}
+        \putcvowel{5}{5}
+        \putcvowel{6}{6}
+        \putcvowel{7}{7}
+        \putcvowel{8}{8}
+        \putcvowel{9}{9}
+        \putcvowel{10}{10}
+        \putcvowel{11}{11}
+        \putcvowel{12}{12}
+        \putcvowel{13}{13}
+        \putcvowel{14}{14}
+        \putcvowel{15}{15}
+        \putcvowel{16}{16}
+    \end{vowel}
 \end{minipage}
 
-\vspace*{3em}
-\section*{Diacritics}
+\clearpage
 
-\begin{tabular}{|c|l|ll|l|}
-\hline
-\textipa{\r*\,} & Voiceless & \textipa{\r*n} & \textipa{\r*d} & \verb+\r*{}+ \\ \hline
-\textipa{\v*\,} & Voiced & \textipa{\v*s} & \textipa{\v*t} & \verb+\v*{}+ \\ \hline
-\textipa{\super h} & Aspirated & \textipa{t\super h} & \textipa{d\super h} & \verb+{}\super h+ \\ \hline
-\textipa{\|)\,} & More rounded & \textipa{\|)O} && \verb+\|){}+ \\ \hline
-\textipa{\|(\,} & Less rounded & \textipa{\|(O} && \verb+\|({}+ \\ \hline
-\textipa{\|+\,} & Advanced & \textipa{\|+u} && \verb$\|+{}$ \\ \hline
-\textipa{\=*\,} & Retracted & \textipa{\=*e} && \verb+\=*{}+ \\ \hline
-\textipa{\"\,} & Centralised & \textipa{\"e} && \verb+\"{}+ \\ \hline
-\textipa{\|x\,} & Mid-centralised & \textipa{\|xe} && \verb+\|x{}+ \\ \hline
-\textipa{\s\,} & Syllabic & \textipa{\s n} && \verb+\s{}+ \\ \hline
-\textipa{\textsubarch\,} & Non-syllabic & \textipa{\textsubarch e} && \verb+\textsubarch{}+ \\ \hline
-\textipa{\textrhoticity\,} & Rhoticity & \textipa{@\textrhoticity} & \textipa{a\textrhoticity} & \verb+{}\textrhoticity+ \\ \hline
-\textipa{\"*\,} & Breathy-voiced & \textipa{\"*b} & \textipa{\"*a} & \verb+\"*{}+ \\ \hline
-\textipa{\~*\,} & Creaky-voiced & \textipa{\~*b} & \textipa{\~*a} & \verb+\~*{}+ \\ \hline
-\textipa{\|m\,} & Linguolabial & \textipa{\|mt} & \textipa{\|md} & \verb+\|m{}+ \\ \hline
-\textipa{\super w} & Labialised & \textipa{t\super w} & \textipa{d\super w} & \verb+{}\super w+ \\ \hline
-\textipa{\super j} & Palatalised & \textipa{t\super j} & \textipa{d\super j} & \verb+{}\super j+ \\ \hline
-\textipa{\super G} & Velarised & \textipa{t\super G} & \textipa{d\super G} & \verb+{}\super G+ \\ \hline
-\textipa{\super Q} & Pharyngealised & \textipa{t\super Q} & \textipa{d\super Q} & \verb+{}\super Q+ \\ \hline
-\textipa{\|[\,} & Dental & \textipa{\|[t} & \textipa{\|[d} & \verb+\|[{}+ \\ \hline
-\textipa{\|]\,} & Apical & \textipa{\|]t} & \textipa{\|]d} & \verb+\|]{}+ \\ \hline
-\textipa{\textsubsquare\,} & Laminal & \textipa{\textsubsquare t} & \textipa{\textsubsquare d} & \verb+\textsubsquare{}+ \\ \hline
-\textipa{\~\,} & Nasalized & \textipa{\~e} && \verb+\~{}+ \\ \hline
-\textipa{\super n} & Nasal release & \textipa{d\super n} && \verb+{}\super n+ \\ \hline
-\textipa{\super l} & Lateral release & \textipa{d\super l} && \verb+{}\super l+ \\ \hline
-\textipa{\,\textcorner} & No audible release & \textipa{d\textcorner} && \verb+{}\textcorner+ \\ \hline
-\textipa{\textsuperimposetilde\,} & Velarised or pharyngealised & \textipa{\textsuperimposetilde l} && \verb+\textsuperimposetilde{}+ \\ \hline
-\textipa{\textraising\,} & Raised & \textipa{\textraising e} && \verb+\textraising{}+ \\ \hline
-\textipa{\textlowering\,} & Lowered & \textipa{\textlowering e} && \verb+\textlowering{}+ \\ \hline
-\textipa{\|<\,} & Advanced Tongue Root & \textipa{\|< e} && \verb+\|<{}+ \\ \hline
-\textipa{\|>\,} & Retracted Tongue Root & \textipa{\|> e} && \verb+\|>{}+ \\ \hline
-\end{tabular}
-
+\begin{minipage}[t]{.45\linewidth}
+    \section*{Diacritics}
+    \begin{tabular}{|c|l|ll|l|}
+        \hline
+        \textipa{\r*\,} & Voiceless & \textipa{\r*n} & \textipa{\r*d} & \verb+\r*{}+ \\ \hline
+        \textipa{\v*\,} & Voiced & \textipa{\v*s} & \textipa{\v*t} & \verb+\v*{}+ \\ \hline
+        \textipa{\super h} & Aspirated & \textipa{t\super h} & \textipa{d\super h} & \verb+{}\super h+ \\ \hline
+        \textipa{\|)\,} & More rounded & \textipa{\|)O} && \verb+\|){}+ \\ \hline
+        \textipa{\|(\,} & Less rounded & \textipa{\|(O} && \verb+\|({}+ \\ \hline
+        \textipa{\|+\,} & Advanced & \textipa{\|+u} && \verb$\|+{}$ \\ \hline
+        \textipa{\=*\,} & Retracted & \textipa{\=*e} && \verb+\=*{}+ \\ \hline
+        \textipa{\"\,} & Centralised & \textipa{\"e} && \verb+\"{}+ \\ \hline
+        \textipa{\|x\,} & Mid-centralised & \textipa{\|xe} && \verb+\|x{}+ \\ \hline
+        \textipa{\s\,} & Syllabic & \textipa{\s n} && \verb+\s{}+ \\ \hline
+        \textipa{\textsubarch\,} & Non-syllabic & \textipa{\textsubarch e} && \verb+\textsubarch{}+ \\ \hline
+        \textipa{\textrhoticity\,} & Rhoticity & \textipa{\textrhookschwa} & \textipa{a\textrhoticity} & \verb+\textrhookschwa, {}\textrhoticity+ \\ \hline
+        \textipa{\"*\,} & Breathy-voiced & \textipa{\"*b} & \textipa{\"*a} & \verb+\"*{}+ \\ \hline
+        \textipa{\~*\,} & Creaky-voiced & \textipa{\~*b} & \textipa{\~*a} & \verb+\~*{}+ \\ \hline
+        \textipa{\|m\,} & Linguolabial & \textipa{\|mt} & \textipa{\|md} & \verb+\|m{}+ \\ \hline
+        \textipa{\super w} & Labialised & \textipa{t\super w} & \textipa{d\super w} & \verb+{}\super w+ \\ \hline
+        \textipa{\super j} & Palatalised & \textipa{t\super j} & \textipa{d\super j} & \verb+{}\super j+ \\ \hline
+        \textipa{\super G} & Velarised & \textipa{t\super G} & \textipa{d\super G} & \verb+{}\super G+ \\ \hline
+        \textipa{\super Q} & Pharyngealised & \textipa{t\super Q} & \textipa{d\super Q} & \verb+{}\super Q+ \\ \hline
+        \textipa{\|[\,} & Dental & \textipa{\|[t} & \textipa{\|[d} & \verb+\|[{}+ \\ \hline
+        \textipa{\|]\,} & Apical & \textipa{\|]t} & \textipa{\|]d} & \verb+\|]{}+ \\ \hline
+        \textipa{\textsubsquare\,} & Laminal & \textipa{\textsubsquare t} & \textipa{\textsubsquare d} & \verb+\textsubsquare{}+ \\ \hline
+        \textipa{\~\,} & Nasalized & \textipa{\~e} && \verb+\~{}+ \\ \hline
+        \textipa{\super n} & Nasal release & \textipa{d\super n} && \verb+{}\super n+ \\ \hline
+        \textipa{\super l} & Lateral release & \textipa{d\super l} && \verb+{}\super l+ \\ \hline
+        \textipa{\,\textcorner} & No audible release & \textipa{d\textcorner} && \verb+{}\textcorner+ \\ \hline
+        \textipa{\textsuperimposetilde\,} & Velarised or pharyngealised & \textipa{\textsuperimposetilde l} && \verb+\textsuperimposetilde{}+ \\ \hline
+        \textipa{\textraising\,} & Raised & \textipa{\textraising e} && \verb+\textraising{}+ \\ \hline
+        \textipa{\textlowering\,} & Lowered & \textipa{\textlowering e} && \verb+\textlowering{}+ \\ \hline
+        \textipa{\|<\,} & Advanced Tongue Root & \textipa{\|< e} && \verb+\|<{}+ \\ \hline
+        \textipa{\|>\,} & Retracted Tongue Root & \textipa{\|> e} && \verb+\|>{}+ \\ \hline
+    \end{tabular}
+\end{minipage}
+\begin{minipage}[t]{.45\linewidth}
+    \begin{minipage}[t]{\linewidth}
+        \section*{Suprasegmentals}
+        \begin{tabular}[t]{|c|l|l|l|}
+            \hline
+            \textipa{"} & Primary stress & \multirow{2}{*}{\textipa{""foUn@"tIS@n}} & \verb+"+ \\ \cline{1-2} \cline{4-4}
+            \textipa{""} & Secondary stress && \verb+""+ \\ \hline
+            \textipa{:} & Long & \textipa{e:} & \verb+{}:+ \\ \hline
+            \textipa{;} & Half-long & \textipa{e;} & \verb+{};+ \\ \hline
+            \textipa{\u\,} & Extra-short & \textipa{\u e} & \verb+\u{}+ \\ \hline
+            \textipa{\textvertline} & Minor (foot) group && \verb+\textvertline+ \\ \hline
+            \textipa{\textdoublevertline} & Major (intonation) group && \verb+\textdoublevertline+ \\ \hline
+            \textipa{.} & Syllable break & \textipa{\*ri.\ae kt} & \verb+.+ \\ \hline
+            \textipa{\t*\,} & Linking & \textipa{\t*{vv}} & \verb+\t*{}+ \\ \hline
+        \end{tabular}
+    \end{minipage}\\[3em]
+    \begin{minipage}[t]{\linewidth}
+        \section*{Tones}
+        \begin{minipage}[t]{.45\linewidth}
+            \textsc{Level} \\[8pt]
+            \begin{tabular}{|c|l|l|l|}
+                \hline
+                \textipa{\H\,} & \multirow{2}{*}{Extra high} & \textipa{\H e} & \verb+\H{}+ \\ \cline{1-1}\cline{3-4}
+                \textipa{\tone{55}\,} && \textipa{\tone{55}e} & \verb+\tone{55}{}+ \\ \hline 
+                \textipa{\'\,} & \multirow{2}{*}{High} & \textipa{\' e} & \verb+\'{}+ \\ \cline{1-1}\cline{3-4}
+                \textipa{\tone{44}\,} && \textipa{\tone{44}e} & \verb+\tone{44}{}+ \\ \hline
+                \textipa{\=\,} & \multirow{2}{*}{Mid} & \textipa{\= e} & \verb+\={}+ \\ \cline{1-1}\cline{3-4}
+                \textipa{\tone{33}\,} && \textipa{\tone{33}e} & \verb+\tone{33}{}+ \\ \hline
+                \textipa{\`\,} & \multirow{2}{*}{Low} & \textipa{\` e} & \verb+\`{}+ \\ \cline{1-1}\cline{3-4}
+                \textipa{\tone{22}\,} && \textipa{\tone{22}e} & \verb+\tone{22}{}+ \\ \hline
+                \textipa{\H*\,} & \multirow{2}{*}{Extra Low} & \textipa{\H* e} & \verb+\H*{}+ \\ \cline{1-1}\cline{3-4}
+                \textipa{\tone{11}\,} && \textipa{\tone{11}e} & \verb+\tone{11}{}+ \\ \hline
+                \textipa{\textdownstep} & Downstep & \textipa{\textdownstep} & \verb+\textdownstep+ \\ \hline
+                \textipa{\textupstep} & Upstep & \textipa{\textupstep} & \verb+\textupstep+ \\ \hline
+            \end{tabular}
+        \end{minipage}
+        \begin{minipage}[t]{.45\linewidth}
+            \textsc{Contour} \\[8pt]
+            \begin{tabular}{|c|l|l|l|}
+                \hline
+                \textipa{\v\,} & \multirow{2}{*}{Rising} & \textipa{\v e} & \verb+\v{}+ \\ \cline{1-1}\cline{3-4}
+                \textipa{\tone{15}\,} && \textipa{\tone{15}e} & \verb+\tone{15}{}+ \\ \hline
+                \textipa{\^\,} & \multirow{2}{*}{Falling} & \textipa{\^e} & \verb+\^{}+ \\ \cline{1-1}\cline{3-4}
+                \textipa{\tone{51}\,} && \textipa{\tone{51}e} & \verb+\tone{51}{}+ \\ \hline
+                \textipa{\texthighrise\,} & \multirow{2}{*}{High rising} & \textipa{\texthighrise e} & \verb+\texthighrise{}+ \\ \cline{1-1}\cline{3-4}
+                \textipa{\tone{45}\,} && \textipa{\tone{45}e} & \verb+\tone{45}{}+ \\ \hline
+                \textipa{\textlowrise\,} & \multirow{2}{*}{Low rising} & \textipa{\textlowrise e} & \verb+\textlowrise{}+ \\ \cline{1-1}\cline{3-4}
+                \textipa{\tone{12}\,} && \textipa{\tone{12}e} & \verb+\tone{12}{}+ \\ \hline
+                \textipa{\textrisefall\,} & \multirow{2}{*}{Rising-falling} & \textipa{\textrisefall e} & \verb+\textrisefall{}+ \\ \cline{1-1}\cline{3-4}
+                \textipa{\tone{454}\,} && \textipa{\tone{454}e} & \verb+\tone{454}{}+ \\ \hline
+                \textipa{\textglobrise} & Global rise & \textipa{\textglobrise} & \verb+\textglobrise+ \\ \hline
+                \textipa{\textglobfall} & Global fall & \textipa{\textglobfall} & \verb+\textglobfall+ \\ \hline
+            \end{tabular}
+        \end{minipage}
+    \end{minipage}
+\end{minipage}
 \end{document}
