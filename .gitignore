@@ -1,0 +1,9 @@
+**.DS_Store*
+**.git
+**.aux*
+**.fdb_latexmk*
+**.fls*
+**.log*
+**.xdv*
+**.pdf*
+**.synctex.gz*

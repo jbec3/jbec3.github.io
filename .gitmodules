@@ -1,0 +1,3 @@
+[submodule "ipa"]
+	path = ipa
+	url = https://github.com/jbec3/ipa.git
